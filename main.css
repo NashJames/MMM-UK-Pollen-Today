@@ -1,0 +1,26 @@
+.module-header {
+  display: none;
+}
+
+.pollen-container {
+  display: flex;
+  align-items: center;
+  max-width: 420px;
+}
+
+.pollen-level {
+  display: flex;
+  flex-shrink: 0;
+
+  svg {
+    width: 1.5rem;
+  }
+  p {
+    padding-bottom: 6px;
+  }
+}
+
+.airborne-allergens {
+  font-size: 0.6rem;
+  text-align: center;
+}
